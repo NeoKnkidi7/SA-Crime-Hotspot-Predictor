@@ -1,0 +1,17 @@
+[server]
+headless = true
+port = 8501
+enableCORS = false
+enableXsrfProtection = true
+maxUploadSize = 200  # Max file upload size in MB
+
+[browser]
+serverAddress = "localhost"  # For local development
+gatherUsageStats = false
+
+[theme]
+primaryColor = "#FF4B4B"
+backgroundColor = "#0E1117"
+secondaryBackgroundColor = "#1E2A38"
+textColor = "#FAFAFA"
+font = "sans serif"
