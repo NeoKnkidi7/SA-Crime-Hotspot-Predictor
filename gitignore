@@ -59,3 +59,28 @@ venv.bak/
 *.njsproj
 *.sln
 *.sw?
+
+# Streamlit specific
+.secrets.toml
+.streamlit/
+__pycache__/st_cache/
+credentials.toml
+
+# Data files
+*.csv
+*.geojson
+*.shp
+*.dbf
+*.shx
+*.prj
+*.zip
+*.parquet
+*.feather
+
+# System files
+.DS_Store
+Thumbs.db
+*.log
+
+# Exceptions (keep sample data)
+!sample_data.*
