@@ -185,10 +185,10 @@ col4.metric("Avg. Severity", f"{filtered_df['severity'].mean():.1f}/5", "Current
 
 # Main visualization tabs
 tab1, tab2, tab3, tab4 = st.tabs([
-    "🗺️ Crime Heatmap", 
-    "📈 Crime Trends", 
-    "📊 Crime Analysis", 
-    "🔮 Prediction Model"
+    "Crime Heatmap", 
+    "Crime Trends", 
+    "Crime Analysis", 
+    "Prediction Model"
 ])
 
 with tab1:
@@ -214,7 +214,7 @@ with tab1:
         st.subheader("Top Risk Areas")
         top_areas = filtered_df['city'].value_counts().head(5)
         for area, count in top_areas.items():
-            st.markdown(f"📍 **{area}**: {count} incidents")
+            st.markdown(f" **{area}**: {count} incidents")
         
         st.caption("Heatmap shows concentration of criminal activity. Red areas indicate higher frequency.")
 
@@ -333,4 +333,5 @@ Data Source: South African Police Service (SAPS) Open Crime Statistics |
 Disclaimer: This tool provides predictive analytics based on historical data. Actual crime patterns may vary. | 
 GitHub: [SA-Crime-Predictor](https://github.com/NeoKnkidi7/sa-crime-predictor)
 """)
+
 
