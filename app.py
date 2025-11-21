@@ -13,7 +13,6 @@ import zipfile
 # Page configuration
 st.set_page_config(
     page_title="SA Crime Hotspot Predictor",
-    page_icon="📍",
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -59,7 +58,7 @@ st.markdown("""
     """, unsafe_allow_html=True)
 
 # App title
-st.markdown('<h1 class="header-title">🇿🇦 South Africa Crime Hotspot Predictor</h1>', unsafe_allow_html=True)
+st.markdown('<h1 class="header-title">South Africa Crime Hotspot Predictor</h1>', unsafe_allow_html=True)
 st.caption("Predictive analytics platform using SAPS open crime statistics and geospatial analysis")
 
 # Generate sample crime data (replace with real SAPS data)
@@ -330,7 +329,8 @@ with tab4:
 # Footer
 st.divider()
 st.caption("""
-**Data Source**: South African Police Service (SAPS) Open Crime Statistics | 
-**Disclaimer**: This tool provides predictive analytics based on historical data. Actual crime patterns may vary. | 
-**GitHub**: [SA-Crime-Predictor](https://github.com/yourusername/sa-crime-predictor)
+Data Source: South African Police Service (SAPS) Open Crime Statistics | 
+Disclaimer: This tool provides predictive analytics based on historical data. Actual crime patterns may vary. | 
+GitHub: [SA-Crime-Predictor](https://github.com/NeoKnkidi7/sa-crime-predictor)
 """)
+
